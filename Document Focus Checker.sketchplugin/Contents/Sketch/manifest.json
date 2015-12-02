@@ -1,0 +1,24 @@
+{
+	"name": "Document Focus Checker",
+	"description": "There's an ongoing bug in Sketch 3.4 which causes running plugin commands in wrong document sometimes. With this pluging, you can check if document focus is ok or not.",
+    "author": "Emin Inanc Unlu",
+	"homepage": "",
+    "version": 1.0,
+	"compatibleVersion": 3.4,
+    "identifier": "com.einancunlu.document-focus-checker",
+    "commands": [
+        {
+            "handler": "checkDocumentFocus",
+            "identifier": "checkDocumentFocus",
+            "name": "Document Focus Ok?",
+			"shortcut" : "",
+            "script": "main.cocoascript"
+        }
+    ],
+    "menu": {
+	    "isRoot": true,
+	    "items": [
+	      "checkDocumentFocus",
+	    ]
+    }
+}
