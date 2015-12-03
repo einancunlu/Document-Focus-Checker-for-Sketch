@@ -13,8 +13,7 @@ There's an ongoing bug in Sketch 3.4 which causes running plugin commands in wro
 2. Search `Document Focus Checker` in the app and install.
 
 #### Manuel:
-1. [Download the files](https://github.com/einancunlu/Sketch-State-Switch-Master/archive/master.zip) and unzip.
-2. Double click the `Document Focus Checker.sketchplugin` bundle to install.
+Double click the `Document Focus Checker.sketchplugin` file to install.
 
 ## Contact
 

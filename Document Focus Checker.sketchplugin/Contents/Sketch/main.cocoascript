@@ -31,7 +31,8 @@ SOFTWARE.
 //--------------------------------------
 
 
-var doc
+var doc,
+	app = NSApplication.sharedApplication()
 
 
 //--------------------------------------
@@ -46,11 +47,14 @@ function checkDocumentFocus(context) {
 	var documentWindow = context.document.window()
 	var currentWindow = [NSApp mainWindow]
 	
-	doc.showWindows()
+	//doc.showWindows()
 	if (documentWindow === currentWindow) {
 		[doc showMessage: "OK"]
 	} else {
-		[doc showMessage: "NOT OK! Try to close and reopen: " + [currentWindow title]]
+		var title = "NOT OK!"
+		var message = "Try to close and reopen current document.\nNote: Wrong document focus is on: " + [documentWindow title]
+		[app displayDialog:message withTitle:title]
+		//[doc showMessage: "NOT OK! Try to close and reopen: " + [currentWindow title]]
 	}
 }
 

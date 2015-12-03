@@ -11,7 +11,7 @@
             "handler": "checkDocumentFocus",
             "identifier": "checkDocumentFocus",
             "name": "Document Focus Ok?",
-			"shortcut" : "",
+			"shortcut" : "command option o",
             "script": "main.cocoascript"
         }
     ],
