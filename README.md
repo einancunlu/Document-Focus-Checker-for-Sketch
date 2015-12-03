@@ -1,10 +1,10 @@
+# Update
+
+The bug is fixed in 3.4.3.
+
 # Document Focus Checker for Sketch
 
-There's an ongoing bug in Sketch 3.4 which causes running plugin commands in wrong document sometimes. With this pluging, you can check if document focus is ok or not.
-
-## How to Use and Details
-
-[Check out my Medium post here.](https://medium.com/@einancunlu/document-focus-checker-a-temporary-sketch-plugin-72f01d18e858#.o9l99c99o)
+There's an ongoing bug in Sketch 3.4.2 which causes running plugin commands in wrong document sometimes. With this pluging, you can check if document focus is ok or not.
 
 ## Installation
 
